@@ -16,7 +16,7 @@ Config = Config or {}
 
 Config.Language = "de" -- "de"
 
-Config.Framework = "qbcore" -- "qbcore" / "esx" (QBCore is not tested!)
+Config.Framework = "esx" -- "qbcore" / "esx"
 
 Config.Debug = false -- true /false
 
