@@ -1,0 +1,157 @@
+body {
+    overflow: hidden;
+    user-select: none;
+    font-family: 'Big Shoulders Text', cursive;
+    z-index: 1;
+    transition: all .3s;
+    user-select: none;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background: transparent;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    overflow: hidden;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    height: 340px;
+    background: rgba(12, 12, 12, 0.5);
+    border: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgba(64, 233, 30, 0.7);
+}
+
+.exit {
+    position: absolute;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgba(237, 255, 237, 0.6);
+    transform: translate(-50%, -50%);
+    left: 95%;
+    top: 5%;
+    transition: all .3s;
+}
+
+.exit:hover {
+    color: rgb(237, 255, 237);
+}
+
+.exit:active {
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+.title {
+    position: absolute;
+    color: rgb(237, 255, 237);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 5%;
+    letter-spacing: 2px;
+    width: 350px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtext {
+    position: absolute;
+    color: rgba(237, 255, 237, 0.6);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 14%;
+    width: 400px;
+    text-align: center;
+}
+
+.firstnametext {
+    position: absolute;
+    color: rgb(237, 255, 237);
+    transform: translate(-50%, -50%);
+    left: 20%;
+    top: 25%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.firstname {
+    position: absolute;
+    color: rgb(237, 255, 237);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(12, 12, 12, 0.5);
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 20px;
+}
+
+.lastnametext {
+    position: absolute;
+    color: rgb(237, 255, 237);
+    transform: translate(-50%, -50%);
+    left: 21%;
+    top: 45%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lastname {
+    position: absolute;
+    color: rgb(237, 255, 237);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(12, 12, 12, 0.5);
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 20px;
+}
+
+.button {
+    position: absolute;
+    color: rgb(237, 255, 237);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 80%;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(12, 12, 12, 0.5);
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 23px;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.button:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.button:active {
+    background: rgba(64, 233, 30, 0.7);
+}
